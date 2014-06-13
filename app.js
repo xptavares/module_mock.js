@@ -18,7 +18,7 @@ var controle = function() {
 		uri: 'http://localhost:3000/itinerario_realizados',
 	 	method: 'POST',
 	 	form: {
-	 		'authenticity_token': '09pnVsVNpbwUl765ni+owsy4L4PrKV1XW4cEF53u9MI=',
+	 		'authenticity_token': '8C2Vd9uxoWDeLdZFUAoRd61uVWbQ3Db6rOLAWt+ggk4=',
 	 		'itinerario_realizado[latitude]': rota[i].latitude,
 	 		'itinerario_realizado[longitude]': rota[i].longitude,
 	 		'itinerario_realizado[date]': new Date(),
